@@ -11,7 +11,7 @@ import { useWeekTasks } from '../hooks/useWeekTasks';
 import { formatIST, getWeekRange, isSameISTDay, parseISTDate, toISTDateKey } from '../utils/date';
 import { filterTasksByDay, getTaskStats } from '../utils/tasks';
 
-const PREVIEW_LIMIT = 3;
+const PREVIEW_LIMIT = 4;
 
 const getListTitle = (selectedDate) =>
   isSameISTDay(selectedDate, new Date())

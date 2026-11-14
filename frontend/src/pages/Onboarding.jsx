@@ -23,7 +23,7 @@ const ZigzagLines = ({ className }) => (
 const Onboarding = () => (
   <div className="min-h-screen bg-gray-100">
     <main className="mx-auto flex min-h-screen max-w-md flex-col bg-white">
-      <div className="relative flex-[80] overflow-hidden bg-primary" aria-hidden="true">
+      <div className="relative flex-[75] overflow-hidden bg-primary" aria-hidden="true">
         <div className="absolute -right-6 -top-6 size-24 rounded-full border-[12px] border-white/20" />
         <ZigzagLines className="absolute left-8 top-16 w-24 text-white/25" />
         <ZigzagLines className="absolute bottom-12 right-6 w-24 text-white/25" />
@@ -31,7 +31,7 @@ const Onboarding = () => (
 
       <section className="flex flex-[20] flex-col justify-between px-5 pb-8 pt-6">
         <div>
-          <h1 className="text-2xl font-semibold text-gray-900">Manage What To Do</h1>
+          <h1 className="text-3xl font-semibold text-gray-900">Manage What To Do</h1>
           <p className="mt-4 max-w-[18rem] text-xs leading-relaxed text-gray-500">
             The best way to manage what you have to do, don&apos;t forget your plans
           </p>
