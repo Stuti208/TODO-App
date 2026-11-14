@@ -2,8 +2,8 @@
 
 A mobile-first to-do list application built with the MERN stack. Users can create, edit, delete and search tasks, schedule them with a date and time, mark them as completed, and track their progress week by week.
 
-- **Live demo:** DEPLOYED_FRONTEND_URL
-- **API base URL:** DEPLOYED_API_URL/api
+- **Live demo:** https://todo-task-inventory.netlify.app/
+- **API base URL:** https://todo-app-gb4w.onrender.com/api
 
 ---
 
@@ -204,7 +204,7 @@ npm run dev
 
 ## API Documentation
 
-**Base URL:** `http://localhost:5000/api` 
+**Base URL:** `https://todo-app-gb4w.onrender.com/api` 
 
 ---
 
